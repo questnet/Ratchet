@@ -11,6 +11,16 @@ class IoConnection implements ConnectionInterface {
      * @var \React\Socket\ConnectionInterface
      */
     protected $conn;
+    
+    // callbuilder changes begin
+    public $resourceId;
+    public $remoteAddress;
+    public $httpHeadersReceived;
+    public $httpBuffer;
+    public $httpRequest;
+    public $WebSocket;
+    public $targetConnections;
+    // callbuilder changes end
 
 
     /**
