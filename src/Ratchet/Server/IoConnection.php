@@ -12,7 +12,7 @@ class IoConnection implements ConnectionInterface {
      */
     protected $conn;
     
-    // callbuilder changes begin
+    // MAGIC //
     public $resourceId;
     public $remoteAddress;
     public $httpHeadersReceived;
@@ -20,7 +20,9 @@ class IoConnection implements ConnectionInterface {
     public $httpRequest;
     public $WebSocket;
     public $targetConnections;
-    // callbuilder changes end
+    public $controller;
+    public $attr;
+    // MAGIC //
 
 
     /**
